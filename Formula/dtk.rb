@@ -2,29 +2,29 @@ class Dtk < Formula
   desc "Kanban, Git and Deployment, in one coherent flow"
   homepage "https://github.com/ssc-php/dtk"
   license "MIT"
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
     on_intel do
       url "https://github.com/ssc-php/dtk/releases/download/v#{version}/dtk-macos-x86_64"
-      sha256 "9556a4bb095b45d520ecafa22cee8b464dee8ce21c011cf155eb1ce124d63631"
+      sha256 "31bdfe7947b1875fb4aba7574cfbb80d1810ad2307b6bf554d50e35a8b822760"
     end
 
     on_arm do
       url "https://github.com/ssc-php/dtk/releases/download/v#{version}/dtk-macos-aarch64"
-      sha256 "8fff21c775a56b59054a3fb18eb5d06ad43b1eb5c201b8416f74a783f60a2ec5"
+      sha256 "d9ac36883ce263e1b99c8d56a2143c6835bf6eaf369a78667968635d050fdcb4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ssc-php/dtk/releases/download/v#{version}/dtk-linux-x86_64"
-      sha256 "58ba702e2efc6bf14324ae07ac53b5848861e983d5d5fdf2808410b8d34fd5cf"
+      sha256 "a8b1afa929f7cc5ed2dedd73c86e373b6fe09c39e855cbb6a0ede79687622e26"
     end
 
     on_arm do
       url "https://github.com/ssc-php/dtk/releases/download/v#{version}/dtk-linux-aarch64"
-      sha256 "5d280d8439173373c733ac5cd3dafb4ae5a2bf06ae8b2be949b17e39d55656bf"
+      sha256 "1f16fd1177e37165014491b8ebe293499e04be3f50352e5289c393d9d621c1d3"
     end
   end
 
